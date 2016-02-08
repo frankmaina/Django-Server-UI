@@ -7,7 +7,7 @@ This is a minimal Electron application based on the [Quick Start Guide](http://e
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) , [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer and ofcourse [Django](https://www.djangoproject.com/)From your command line:
+To clone and run this repository you'll need [Git](https://git-scm.com) , [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer and ofcourse [Django](https://www.djangoproject.com/) from your command line:
 
 ```bash
 # Clone this repository
