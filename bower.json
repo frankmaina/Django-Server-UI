@@ -1,0 +1,23 @@
+{
+  "name": "electron-quick-start",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "authors": [
+    "GitHub"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "process"
+  ],
+  "homepage": "NULL",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
