@@ -3,7 +3,7 @@
 </div>
 # Django Server UI
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation. It aims to provide a User Interface to most common Django appliaction development procedures such as running the server. 
+This is a minimal application based on  [Electron](http://electron.atom.io/). It aims to provide a User Interface to most common of actions in Django appliaction development such as running the server. 
 
 
 ## To Use
