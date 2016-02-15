@@ -32,9 +32,9 @@
 
 
 function start_Server(){
-
-alert("tested");
- 
+	const ipcRenderer = require('electron').ipcRenderer;
+	
+ipcRenderer.send('command_channel', 'ping');
 }
 </script>
 </html>

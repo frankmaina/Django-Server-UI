@@ -26,9 +26,9 @@ function createWindow () {
   // debugging settings
   if (dev_environment=="testing") {
       mainWindow.webContents.openDevTools();
-      mainWindow.setMenu();
+      mainWindow.setMenu(true);
   }
-  
+
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
     // Dereference the window object, usually you would store windows
@@ -41,6 +41,14 @@ function createWindow () {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 app.on('ready', createWindow);
+
+//work on main events
+const ipcMain = require('electron').ipcMain;
+
+ipcMain.on('command_channel', function(event, arg) {
+  console.log("Django server started");
+});
+
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
