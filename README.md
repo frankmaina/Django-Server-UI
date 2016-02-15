@@ -1,6 +1,6 @@
+
+<img src="http://s8.postimg.org/vxhhd8ns5/Untitled.png" alt="screenshot">
 # Django Server UI
-
-
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation. It aims to provide a User Interface to most common Django appliaction development procedures such as running the server. 
 
