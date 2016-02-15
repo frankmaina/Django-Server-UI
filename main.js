@@ -46,7 +46,15 @@ app.on('ready', createWindow);
 const ipcMain = require('electron').ipcMain;
 
 ipcMain.on('command_channel', function(event, arg) {
-  console.log("Django server started");
+    console.log("Django server started");
+
+    var spawn = require('child_process').spawn;
+    var ls = spawn('python manage.py runserver');
+
+    ls.stdout.on('data', (data) => {
+        console.log(`${data}`);
+    });
+
 });
 
 
