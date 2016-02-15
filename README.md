@@ -20,6 +20,6 @@ npm install && npm start
 ```
 ## Note: Application must be launched within a Django appliaction. 
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+Learn more about Electron and its API in the [documentation](#).
 
 #### License [(MIT)](https://opensource.org/licenses/MIT)
