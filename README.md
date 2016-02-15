@@ -1,4 +1,4 @@
-<div align="center>
+<div align="center">
   <img src="http://s8.postimg.org/vxhhd8ns5/Untitled.png" alt="screenshot">
 </div>
 # Django Server UI
