@@ -2,7 +2,7 @@
 
 
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation. It aims to provide a User Interface to most common Django appliaction development. 
+This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation. It aims to provide a User Interface to most common Django appliaction development procedures such as running the server. 
 
 
 ## To Use
