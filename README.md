@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/windows-10-snip.png" alt="screenshot">
+  <img src="assets/img/windows-10-snip.PNG" alt="screenshot">
 </div>
 # Django Server UI
 
