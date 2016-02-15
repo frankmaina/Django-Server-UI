@@ -5,23 +5,30 @@ const electron = require('electron');
 const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
-var dev_environment = "testing";
+var dev_environment = "dev";
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
 function createWindow () {
-  // Create the browser window.
-  mainWindow = new BrowserWindow({width: 370, height: 260});
+  // Create the browser window and set minimum heright and width
+  mainWindow = new BrowserWindow({width: 420, height: 370,
+                                  minWidth:420, minHeight:370,
+                                  maxWidth:420, maxHeight:370,maximizable:false,fullscreen:false});
+
 
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
-  // Open the DevTools.
-  if (dev_environment=="testing") {
-  mainWindow.webContents.openDevTools();
-  }
+  //hide the default window menu
+  mainWindow.setMenu(null);
 
+  // debugging settings
+  if (dev_environment=="testing") {
+      mainWindow.webContents.openDevTools();
+      mainWindow.setMenu();
+  }
+  
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
     // Dereference the window object, usually you would store windows

@@ -2,18 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Djang-UI</title>
-    <link rel="stylesheet" type="text/css" href="./bower_components/semantic/dist/semantic.min.css">
-    <script src="./bower_components/semantic/dist/semantic.min.js"></script>
+    <title>Django-Server-UI</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
   </head>
-  <body>
+  <body background="./assets/img/bg.png">
     <div class="container">
         <div align="center">
-          <br><br>
-            <button class="ui green basic button">Start Server</button>
-            <button class="ui teal basic button">Stop Server</button>
-            <button class="ui red basic button">Migrate DB</button>
+          <br><br><br><br>
+			<button class="btn waves-effect waves-light red lighten-2" onclick="start_Server();" >Start Server
+			   <i class="fa fa-server"></i>
+			  </button>
+			  			  <br><br>
+			<button class="btn waves-effect waves-light teal lighten-2">Make Migrations
+			   <i class="fa fa-building-o"></i>
+			  </button>
+			  <br><br>
+			<button class="btn waves-effect waves-light teal lighten-2" >Run Migrations
+			   <i class="fa fa-fast-forward"></i>
+			  </button>
         </div>
     </div>
   </body>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+ <script>
+
+
+function start_Server(){
+
+alert("tested");
+ 
+}
+</script>
 </html>
